@@ -1,0 +1,250 @@
+html{   
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: 'Anonymous Pro', monospace;
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.logo{
+	height: 36px;
+	width: 110px;
+}
+header{
+	height: 10vh;
+	background: #2F2FA2;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+.nav {
+	padding: 10px;
+}
+.nav 3{
+	padding-right: 0;
+}
+.m-title{
+	margin: 5%;
+}
+.text-a{
+	color: black;
+}
+.texts{
+	margin: 5%;
+}
+nav a:hover{
+	background: rgba(255, 255, 255, 0.1);
+}
+.hello{
+	display: flex;
+	justify-content: space-between;
+	margin: 5% 10%;
+}
+.hellotext h1{
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 64px;
+	padding-bottom: 20px;
+}
+.hellotext p{
+	font-size: 20px;
+	line-height: 20px;
+	padding-bottom: 12px;
+}
+.hellotext button{
+	border: 1px soloid #2F2FA2;
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	width: 155px;
+	height: 52px;
+	background: #2F2FA2;
+	border-radius: 15px;
+	font-family: 'Anonymous Pro', monospace;
+}
+.hellotext button:hover{
+	color: #2F2FA2;
+	background: white;
+	border: 1px soloid #2F2FA2;
+}
+.laptop{
+	width: 510.02px;
+	height: 317px;
+}
+.instruction{
+	display: flex;
+	justify-content: space-between;
+	margin: 10%;
+
+}
+.ipad{
+	width: 244px;
+	height: 318px;
+	background: url(ipad.png);
+	transform: rotate(15deg);
+}
+.instructiontext{
+	max-width: 568px;
+}
+.instructiontext h1{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 64px;
+	text-align: right;
+	padding-bottom: 20px;
+}
+.instructiontext p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: right;
+}
+.test-title{
+	text-align: center;
+	font-weight: 700;
+	font-size: 48px;
+	margin: 5% 10%;
+}
+.questionNum{
+	color: #a2aab5;
+	text-align: center;
+}
+.questionBlock1{
+	height: fit-content;
+	width: fit-content;
+	padding: 5%;
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 12px;
+	background-color: #f1f4fa;
+}
+.questionBlock2{
+	display: none;
+	height: fit-content;
+	width: fit-content;
+	padding: 5%;
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 12px;
+	background-color: #f1f4fa;
+}
+.questionBlock3{
+	display: none;
+	height: fit-content;
+	width: fit-content;
+	padding: 5%;
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 12px;
+	background-color: #f1f4fa;
+}
+.questionBlock4{
+	display: none;
+	height: fit-content;
+	width: fit-content;
+	padding: 5%;
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 12px;
+	background-color: #f1f4fa;
+}
+.questionBlock5{
+	display: none;
+	height: fit-content;
+	width: fit-content;
+	padding: 5%;
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 12px;
+	background-color: #f1f4fa;
+}
+.results{
+	display: none;
+	color: white;
+	background-color: #2F2FA2;
+	height: fit-content;
+	width: fit-content;
+	padding: 5%;
+	margin: 0 auto;
+	border: solid 1px white;
+	border-radius: 12px;
+}
+.testover{
+	text-decoration: none;
+	border: 1px soloid white;
+	padding: 15px 5px;
+	font-weight: 700;
+	font-size: 16px;
+	color: black;
+	width: 155px;
+	height: 52px;
+	background: white;
+	border-radius: 0;
+	font-family: 'Anonymous Pro', monospace;
+}
+.testover:hover{
+	text-transform: bold;
+	color: white;
+	background-color: #2F2FA2;
+	border: 2px solid white;
+
+}
+.questionBlockDone{
+	display: none;
+}
+.question{
+	font-weight: 700;
+	font-size: 36px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.answer{
+	border: 1px soloid #2F2FA2;
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	width: 155px;
+	height: 52px;
+	background: #2F2FA2;
+	border-radius: 0px;
+	font-family: 'Anonymous Pro', monospace;
+}
+.buttons{
+	margin: 20px;
+}
+.ttext{
+	margin: 5%;
+}
+.ttext h1, h2, img, p{
+	margin-bottom: 20px;
+}
+.ttext p{
+	max-width: 50%;
+}
+
+@media screen and (max-width: 400px){
+	.laptop{
+		width: 421px;
+		height: 241px;}
+	.hellotext h1{
+		font-weight: 700;
+    	font-size: 40px;
+    	line-height: normal;
+    	padding-bottom: 20px;}
+}
